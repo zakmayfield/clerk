@@ -12,6 +12,9 @@ export default function Home() {
           <li>
             <Link href='/sign-in'>sign in</Link>
           </li>
+          <li>
+            <Link href='/foo'>Protected Foo route</Link>
+          </li>
         </ul>
       </div>
     </main>
