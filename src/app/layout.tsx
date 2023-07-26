@@ -19,7 +19,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang='en'>
         <body className={inter.className}>
-          <div className='max-w-lg mx-auto border-2'>{children}</div>
+          <div className='max-w-lg mx-auto'>{children}</div>
         </body>
       </html>
     </ClerkProvider>
